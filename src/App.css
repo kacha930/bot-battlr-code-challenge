@@ -1,0 +1,42 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  
+}
+
+.bot-collection, .bot-army {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bot-profile {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.bot-profile img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.bot-profile button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
