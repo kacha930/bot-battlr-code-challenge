@@ -7,7 +7,7 @@ function BotCollection({ enlistBot, army }) {
   const [bots, setBots] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8001/bots')
+    axios.get('https://json-server-vercel-peach-seven.vercel.app/bots')
       .then(response => setBots(response.data))
       .catch(error => console.error('Error fetching bots:', error));
   }, []);

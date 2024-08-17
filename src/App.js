@@ -19,7 +19,7 @@ function App() {
   };
 
   const dischargeBot = (id) => {
-    axios.delete(`http://localhost:8001/bots/${id}`)
+    axios.delete(`https://json-server-vercel-peach-seven.vercel.app/bots/${id}`)
       .then(() => setArmy(army.filter(bot => bot.id !== id)))
       .catch(error => console.error('Error discharging bot:', error));
   };
